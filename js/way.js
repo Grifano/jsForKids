@@ -12,6 +12,6 @@ landMarks.pop();
 landMarks = landMarks.join(" <= ");
 
 var jsWorkspace = landMarks;
-
+// *******************************************
 var jsOut = document.getElementById("js-out");
 jsOut.innerHTML = jsWorkspace;
