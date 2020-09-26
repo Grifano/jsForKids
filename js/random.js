@@ -13,13 +13,13 @@ var grandMothers = [
 var grandFathers = [
 	"Viktor",
 	"Grygorij"
-]
+];
+
+// Merge all to one string
 var family = merege.concat(children, grandMothers, grandFathers);
-
-// var jsWorkspace = names[names.length - 1];
-var jsWorkspace = family.join(" ");
-
+// Out to screen
+var jsWorkspace = family[Math.floor(Math.random() * 10)];
+// *******************************************
 // console.log(names);
-
 var jsOut = document.getElementById("js-out");
 jsOut.innerHTML = jsWorkspace;
