@@ -1,2 +1,2 @@
 # jsForKids
-Work on the book JS for kids
+Work on the book "JavaScript for kids"
